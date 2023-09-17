@@ -38,7 +38,7 @@ function openCvReady() {
         document.getElementById("button-filter").onclick = function () {
             let imgInput = cv.imread('img-main');
             let imgFilter = new cv.Mat();
-            let M = cv.Mat.eye(3, 3, cv.CV_32FC1);
+            let M = cv.Mat.eye(4, 4, cv.CV_32FC1);
             let anchor2 = new cv.Point(-1, -1);
             cv.filter2D(imgInput, imgFilter, cv.CV_8U, M, anchor2, 0, cv.BORDER_DEFAULT);
             cv.imshow('main-canvas', imgFilter);
