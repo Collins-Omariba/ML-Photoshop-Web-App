@@ -94,18 +94,24 @@ h1 {
     position: absolute;
     height: 600px;
     width: 600px;
+    z-index: 1;
 }
 
 #main-canvas{
-    position: absolutes;
-    height: 590px;
-    width: 590px;
+    height: 550px;
+    width: 550px;
     background-color: #1a1a1a;
-    border-radius: 50px;
+    border-radius: 35px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+img-main{
+    height: 550px;
+    width: 550px;
+    border-radius: 35px;
 }
 
 /* ICONS */
@@ -146,12 +152,17 @@ h1 {
         font-size: 24px;
     }
     #tablet-image {
-     
         height: 300px;
         width: 300px;
     }
 
     #main-canvas {
+        height: 290px;
+        width: 290px;
+        border-radius: 10px;
+    }
+        
+    img-main{
         height: 290px;
         width: 290px;
         border-radius: 10px;
