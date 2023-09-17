@@ -141,8 +141,8 @@ h1 {
         flex: 1; /* Adjust the width of the right panel on smaller screens */
     }
     .circle{
-        height: 50px;
-        width : 50px;
+        height: 35px;
+        width : 35px;
         font-size: 24px;
     }
     #tablet-image {
